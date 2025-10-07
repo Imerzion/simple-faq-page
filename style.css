@@ -1,0 +1,116 @@
+/* Universal box-sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove text decorations on links */
+a {
+  text-decoration: none;
+  color: inherit; /* Optional: keeps the color of links consistent with text */
+}
+
+/* Remove border from fieldset */
+fieldset {
+  border: none;
+}
+
+/* Remove background color and border for buttons */
+button,
+input,
+select,
+textarea {
+  background: none;
+  border: none;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8fafc;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.order-tracking {
+  padding-top: 5rem;
+}
+
+.order-tracking p:first-of-type {
+  padding-bottom: 2rem;
+}
+
+.return-policy p {
+  padding-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+li {
+  margin-left: 20px;
+  line-height: 2rem;
+}
+
+ul,
+ol {
+  padding-bottom: 1rem;
+}
+
+hr.custom {
+  border: none;
+  height: 1px;
+  background-color: #d2d5da;
+  margin: 3rem 0;
+}
+
+a {
+  color: #4e80ee;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
